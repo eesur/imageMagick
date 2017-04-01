@@ -2,7 +2,7 @@
 imageMagick notes/commands for reference 
 
 
-## convert commannds 
+## convert commands 
 
 ### type
 convert command lets you convert the image file type to another file type
