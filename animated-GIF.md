@@ -17,4 +17,11 @@ The delay parameter specifies the delay between frames in milliseconds, while th
 [source](http://www.linux-magazine.com/Online/Blogs/Productivity-Sauce/Create-Animated-GIFs-with-ImageMagick)
 
 
+[patrol img](http://www.imagemagick.org/Usage/anim_mods/#patrol)
+
+```
+convert -reverse *.png -duplicate 1,-2-1 -set delay 10 -set dispose previous -loop 0 seq_reverse_anim.gif
+```
+
+
 
